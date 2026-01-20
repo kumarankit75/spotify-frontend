@@ -1,47 +1,53 @@
-# 🎧 Spotify Clone (React + Tailwind + Node)
+# 🎧 Spotify Clone — Full Stack
 
-A Spotify-like music streaming web app built with **React**, **Tailwind CSS**, **Node.js**, and **SQLite**.
+A production-ready Spotify-like music streaming app built with **React**, **Node.js**, **Express**, and **SQLite**, featuring **JWT authentication**, **user-owned playlists**, and a **real audio player**.
 
 ## 🚀 Live Demo
-👉 Frontend: https://codesandbox.io/s/YOUR-SANDBOX-LINK  
-👉 Backend API: https://YOUR-BACKEND-URL
+
+- Frontend: https://chic-gumdrop-c4e0fa.netlify.app/
+- Backend API: https://spotify-backend-u1md.onrender.com
 
 ## ✨ Features
-- 🎵 Play / Pause music
-- 📂 Playlists (create & view)
-- ➕ Add songs to playlists
-- ▶️ Play songs from playlists
-- 🎨 Spotify-style dark UI
-- 🌐 Real backend with SQLite database
+
+- 🔐 JWT Login / Signup
+- 👤 User-specific playlists
+- ➕ Add / ❌ Remove songs from playlists
+- 🎵 Audio player (Play / Pause / Next / Prev)
+- 🔁 Playlist-based queue
+- 🌙 Spotify-style dark UI
+- 🌐 Deployed frontend + backend
 
 ## 🛠 Tech Stack
+
 **Frontend**
+
 - React
-- Tailwind CSS (CDN)
-- CodeSandbox
+- Tailwind CSS
+- Netlify
 
 **Backend**
+
 - Node.js
 - Express
 - SQLite
+- JWT (Authentication)
+- Render
 
-## 📸 Screens (Optional)
-- Sidebar with playlists
-- Song list with active state
-- Bottom music player
+## 🧠 What This Project Demonstrates
 
-## 🧠 What I Learned
-- React state management
-- Frontend ↔ backend integration
-- REST APIs
-- Database relationships
-- UI/UX polishing with Tailwind
+- Full-stack architecture
+- REST API design
+- Auth & authorization
+- State management
+- Production debugging
+- Deployment workflows
 
 ## 📦 Future Improvements
-- User authentication
-- Playlist ownership
-- Player progress bar
-- Deployment on Netlify / Vercel
+
+- Mobile app (React Native)
+- OAuth (Google / Spotify)
+- Persistent storage for audio
+- Search & recommendations
 
 ---
 
